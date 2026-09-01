@@ -1,1 +1,17 @@
-
+{
+  "name": "sp-pdf-merge-api",
+  "version": "1.0.0",
+  "description": "Standalone Cloudflare Worker API untuk merge PDF",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
